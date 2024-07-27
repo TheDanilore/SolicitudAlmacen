@@ -6,6 +6,7 @@ Lenguaje: PHP
 Base de datos: Mysql
 
 Desarrolladores:
+
 TheDanilore
 
 Carlos Angulo
