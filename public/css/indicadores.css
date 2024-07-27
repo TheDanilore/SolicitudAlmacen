@@ -1,0 +1,95 @@
+/*    Indicadores      */
+
+.indicador {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  box-shadow: var(--shadow);
+}
+
+.indicador h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.indicador p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+
+/*Navegacion*/
+.img-profile {
+  width: 40px;
+  /* Ajusta el ancho según tus necesidades */
+  height: 40px;
+  /* Ajusta la altura según tus necesidades */
+  object-fit: cover;
+  /* Esto asegura que la imagen se recorte adecuadamente si no es cuadrada */
+
+}
+
+/*Perfil*/
+.img-profile-perfil {
+  width: 45px;
+  /* Ajusta el ancho según tus necesidades */
+  height: 45px;
+  /* Ajusta la altura según tus necesidades */
+  object-fit: cover;
+  /* Esto asegura que la imagen se recorte adecuadamente si no es cuadrada */
+
+}
+
+/*Imagen de Productos en editar*/
+.img-productos-update {
+
+  width: 300px;
+  /* Ajusta el ancho según tus necesidades */
+  height: 300px;
+  /* Ajusta la altura según tus necesidades */
+  object-fit: cover;
+  /* Esto asegura que la imagen se recorte adecuadamente si no es cuadrada */
+  align-items: center;
+  flex: auto;
+}
+
+/*Perfil*/
+.img-profile-perfil-update {
+  width: 300px;
+  /* Ajusta el ancho según tus necesidades */
+  height: 300px;
+  /* Ajusta la altura según tus necesidades */
+  object-fit: cover;
+  /* Esto asegura que la imagen se recorte adecuadamente si no es cuadrada */
+
+}
+
+
+/* Modo oscuro y modo claro*/
+:root {
+  --sidebar-light-bg: #FFFFFF;
+  --sidebar-dark-bg: #34495e;
+  --sidebar-light-text: #FFFFFF;
+  --sidebar-dark-text: #ecf0f1
+}
+
+body.light-mode {
+  --sidebar-bg: var(--sidebar-light-bg);
+  --sidebar-text: var(--sidebar-light-text)
+}
+
+body.dark-mode {
+  --sidebar-bg: var(--sidebar-dark-bg);
+  --sidebar-text: var(--sidebar-dark-text)
+}
+
+.sidebar {
+  background-color: var(--sidebar-bg);
+  color: var(--sidebar-text)
+}

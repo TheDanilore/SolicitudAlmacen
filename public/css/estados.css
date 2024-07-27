@@ -1,0 +1,120 @@
+.estado-pendiente {
+    background-color: grey;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.estado-aprobada {
+    background-color:rgb(21, 194, 76 );
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.estado-rechazada {
+    background-color: rgb(244, 30, 63);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+.estado-pendiente-oscuro {
+    background-color: rgb(113, 109, 109);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.estado-aprobada-oscuro {
+    background-color:rgb(34, 160, 74);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.estado-rechazada-oscuro {
+    background-color: rgb(180, 41, 62);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+/*Estados de los del crud*/
+
+.estado-activo {
+    background-color: rgb(23, 211, 83);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.estado-desactivado {
+    background-color: rgb(244, 30, 63);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+.estado-activo-oscuro {
+    background-color: rgb(34, 160, 74);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.estado-desactivado-oscuro {
+    background-color: rgb(180, 41, 62);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/*Tipo de movimiento*/
+
+.movimiento-entrada {
+    background-color: rgb(31, 180, 78 );
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.movimiento-salida {
+    background-color:rgb(244, 30, 63);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.movimiento-ajuste {
+    background-color:rgb(216, 171, 49);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+.movimiento-entrada-oscuro {
+    background-color: rgb(34, 160, 74);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.movimiento-salida-oscuro {
+    background-color:rgb(180, 41, 62);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.movimiento-ajuste-oscuro {
+    background-color:rgb(167, 133, 41);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

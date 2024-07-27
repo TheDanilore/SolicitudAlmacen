@@ -1,0 +1,36 @@
+/* archivo: css/estilos-modo.css */
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.sidebar.sidebar-light {
+    background-color: #f8f9fc;
+}
+
+.sidebar.sidebar-dark {
+    background-color: #343a40;
+}
+
+.navbar-light {
+    background-color: white;
+    border-color: #e3e6f0;
+}
+
+.navbar-dark {
+    background-color: #343a40;
+    border-color: #454d55;
+}
+
+.footer-light {
+    background-color: white;
+}
+
+.footer-dark {
+    background-color: #343a40;
+}
